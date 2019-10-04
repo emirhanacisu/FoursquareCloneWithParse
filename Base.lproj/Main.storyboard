@@ -213,11 +213,12 @@
                     <navigationItem key="navigationItem" id="KWy-dd-NXI"/>
                     <connections>
                         <outlet property="mapView" destination="snB-Mk-AGk" id="Fbg-3l-Tzw"/>
+                        <segue destination="ayR-mU-EJ4" kind="presentation" identifier="fromMapVCtoPlacesVC" modalPresentationStyle="fullScreen" id="EbV-xf-rpb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZc-XX-bIC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4274" y="423"/>
+            <point key="canvasLocation" x="4328" y="459"/>
         </scene>
         <!--Sign UpVC-->
         <scene sceneID="tne-QT-ifu">
@@ -319,4 +320,7 @@
     <resources>
         <image name="select" width="285" height="275"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="EbV-xf-rpb"/>
+    </inferredMetricsTieBreakers>
 </document>
