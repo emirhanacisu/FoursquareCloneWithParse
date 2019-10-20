@@ -105,5 +105,6 @@ class PlacesVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedPlaceId = placeIdArray[indexPath.row]
         self.performSegue(withIdentifier: "toDetailsVC", sender: nil)
+        //
     }
 }
